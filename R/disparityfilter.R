@@ -20,6 +20,9 @@
 
 disp_filter <- function(g, alpha = 0.003){
   
+  if (igraph::has.multiple(g))
+    stop("This disparity filter does not support yet multiple edges")
+  
   e <- cbind(igraph::as_data_frame(g)[, 1:2 ], weight = E(g)$weight)
   
   # in
