@@ -1,6 +1,6 @@
-Package: disparityfilter
+Package: dispfilter
 Title: Disparity filter for weighted networks
-Version: 0.0.0.9000
+Version: 0.0.1.0
 Authors@R: person("Filipe", "Teixeira", email = "Filipe.MarquesTeixeira@Ugent.be", role = c("aut", "cre"))
 Maintainer: Filipe Teixeira <Filipe.MarquesTeixeira@Ugent.be>
 Description: Disparity filter to extract backbone of weighted network based on Serrano et al. 2009.
@@ -15,3 +15,6 @@ Depends:
     igraph,
     dplyr
 VignetteBuilder: knitr
+Suggests: knitr,
+    rmarkdown,
+    testthat
