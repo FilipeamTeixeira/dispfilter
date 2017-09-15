@@ -10,7 +10,7 @@ Serrano, M.Angeles; Boguna, Marian; Vespignani, Alessandro (2009)
 Proceedings of the National Academy of Sciences, 106, (16): 6483–6488  
 
 
-The idea behind this package is to take an simpler approach than the currently available, to the disparity filter mentioned above.
+The idea behind this package is to take a simpler approach than the currently available, to the disparity filter mentioned above.
 
 ## Installation
 Install the dispfilter from GitHub with the `devtools` package.  
