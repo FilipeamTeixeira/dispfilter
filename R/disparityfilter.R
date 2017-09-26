@@ -13,6 +13,8 @@
 #' }
 #' @export
 #'
+#' @import igraph
+#' @importFrom dplyr %>% left_join mutate select
 
 dispfilter <- function(g, alpha = 0.003){
 
@@ -59,6 +61,8 @@ dispfilter <- function(g, alpha = 0.003){
   g <- delete.vertices(g, which(degree(g) == 0))
 
   return(g)
+
+weight <- alpha_in <- alpha_out <- from <- to <- NULL
 
 }
 

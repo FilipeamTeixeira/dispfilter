@@ -1,3 +1,17 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
 # dispfilter
 
 Disparity filter is a network reduction algorithm, developed by M. Angeles Serrano, Marian Boguna and Alessandro Vespignani to extract the backbone structure of undirected weighted network.

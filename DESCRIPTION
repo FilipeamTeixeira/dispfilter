@@ -1,17 +1,20 @@
 Package: dispfilter
-Title: Disparity filter for weighted networks
-Version: 0.0.1.0
+Title: Disparity Filter for Weighted Networks
+Version: 0.0.2.0
 Authors@R: person("Filipe", "Teixeira", email = "Filipe.MarquesTeixeira@Ugent.be", role = c("aut", "cre"))
 Maintainer: Filipe Teixeira <Filipe.MarquesTeixeira@Ugent.be>
 Description: Disparity filter to extract backbone of weighted network based on Serrano et al. 2009.
-License: GPL-3
+License: GPL-3 + file LICENSE
+URL: https://github.com/FilipeamTeixeira/dispfilter
+BugReports: https://github.com/FilipeamTeixeira/dispfilter/issues
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
 Collate:
   'disparityfilter.R'
 Depends:
-    R (>= 3.1.2),
+    R (>= 3.1.2)
+Imports:
     igraph,
     dplyr
 VignetteBuilder: knitr
